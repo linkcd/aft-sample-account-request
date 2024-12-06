@@ -1,5 +1,5 @@
 module "account_request_charlie" {
-  source = "../modules/aft-account-request"
+  source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "lufng+ct-developer-charlie@amazon.com"
