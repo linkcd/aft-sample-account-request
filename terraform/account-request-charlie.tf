@@ -1,17 +1,17 @@
-module "account_request_charlie" {
+module "account_request_dave" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "lufng+ct-developer-charlie@amazon.com"
-    AccountName               = "Developer Charlie"
+    AccountEmail              = "lufng+ct-developer-dave@amazon.com"
+    AccountName               = "Developer Dave"
     ManagedOrganizationalUnit = "Sandbox" 
     SSOUserEmail              = "lufng@fabeldyr.onmicrosoft.com"
     SSOUserFirstName          = "Developer"
-    SSOUserLastName           = "Charlie"
+    SSOUserLastName           = "Dave"
   }
 
   account_tags = {
-    "ABC:Owner"       = "lufng+ct-developer-charlie@amazon.com"
+    "ABC:Owner"       = "lufng+ct-developer-dave@amazon.com"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
