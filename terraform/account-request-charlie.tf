@@ -4,7 +4,7 @@ module "account_request_charlie" {
   control_tower_parameters = {
     AccountEmail              = "lufng+ct-developer-charlie@amazon.com"
     AccountName               = "Developer Charlie"
-    ManagedOrganizationalUnit = "sandbox" 
+    ManagedOrganizationalUnit = "Sandbox" 
     SSOUserEmail              = "lufng@fabeldyr.onmicrosoft.com"
     SSOUserFirstName          = "Developer"
     SSOUserLastName           = "Charlie"
